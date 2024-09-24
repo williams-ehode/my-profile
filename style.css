@@ -1,0 +1,114 @@
+body {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: normal;
+}
+
+h1, h2, h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+h2 {
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    color: goldenrod;
+    
+}
+
+div {
+    
+    border: 2px transparent;
+    
+}
+
+.container {
+    text-align: center;
+    width: 800px;
+    margin: 40px auto;
+}
+
+#profile {
+    height: 150px;
+    width: 150px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.card-white {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    background-color: rgb(236, 221, 188);
+    margin: 30px;
+    border-radius: 20px
+}
+
+.btn-blue {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    transition: color 0.3s ease;
+}
+
+.btn-blue:hover {
+    background-color: black;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 40px;
+    color: black
+}
+.list-inline i:hover {
+    color: goldenrod;
+}
+
+#intro p {
+    margin-bottom: 30px;
+}
+
+@media (max-width:900px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media (max-width:720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width:500px) {
+    .container {
+        width: 300px;
+    }
+}
